@@ -1,0 +1,31 @@
+h1 {
+    font-family: Avenir;
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+button {font-family: "Avenir";
+    width:120px;
+    height:120px;
+    border-radius:100px;
+    font-size:27px;
+    text-align:center;
+    background-color: #BDFC48;
+    border: white;
+    color: #184DE5;
+}
+   
+#madlib {font-family: "Avenir";
+    font-size: 30;
+    color: #FF5C54;
+    padding: 10px;
+    line-height: auto;
+    letter-spacing: 0.7px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
