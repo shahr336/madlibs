@@ -2,23 +2,37 @@
 
 <head>
     
-    <link rel="stylesheet" href="madlib.css">
-    <script src='madlibs.js'></script>
-    <title>THE MAD-LIB GAME </title>
+    <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    
+        <link rel="stylesheet" href="madlib.css">
+        <script src='madlibs.js'></script>
+        <title>THE MAD-LIB GAME </title>
     
 </head>
 
     <body>
         
         <h1> The Madlib Game</h1>
-        
-        <div>
-            <center>
-           <p id="madlib"></p>
-           <button onclick="myfunction()">START</button>
-        
-            </center>
+            
+        <p>A Boy's Name: <input type="text" id="name"></input> </p>
+        <p>An Adjective: <input type="text" id="adj"></input></p>
+        <p>A Body Part: <input type="text" id="body"></input></p>
+        <p>An Insect in plural: <input type="text" id="insect"></input></p>
+        <p>A Verb ending in S: <input type="text" id="verb"></input></p>
+    
+        <a href="#" id="dayCTA">LIB IT!</a>
+
+        <div id="result">
+              Im in love with <span class="name"></span>. He's so <span class="adj"></span> ! He has big, flat <span class="body"></span>, and when we meet I get <span class="insect"></span> in my stomach. Ive fallen for him like a ton of <span class="verb"></span> and he shuffles for me too. But I think he's got another girlfriend. What do I do?    
+
         </div>
         
+
     </body>
 </html>
